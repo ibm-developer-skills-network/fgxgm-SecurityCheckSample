@@ -1,0 +1,12 @@
+---
+applications:
+- name: medicalAppointmentSystem
+  instances: 1
+  random-route: true
+  memory: 128M
+  timeout: 180
+  buildpack: nodejs_buildpack
+  command: npm start
+  env:
+    OPTIMIZE_MEMORY: true
+  
