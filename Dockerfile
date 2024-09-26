@@ -1,4 +1,4 @@
-FROM node:18.12.1
+FROM node:22.8.0-bookworm-slim
 
 RUN npm install -g npm@9.1.3
 
