@@ -1,4 +1,4 @@
-FROM node:18.12.1
+FROM node:24.11.0-trixie-slim
 
 RUN npm install -g npm@9.1.3
 
